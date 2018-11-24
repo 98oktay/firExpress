@@ -6,14 +6,16 @@ Download this repositry and
 
 ```
 npm install -g firebase-tools
-
+```
+```
 firebase login
-
+```
+```
 firebase init
+```
 (select hosting and functions)
 
-```
-1. set firebase.json values
+2. Set firebase.json values
 ```
 ...
 "hosting": {
@@ -36,3 +38,22 @@ firebase init
   }
 ...
 ```
+3. Install dependencies
+
+```
+npm install 
+```
+
+```
+cd dist/ && npm install 
+```
+
+4. Run for development
+```
+npm run dev
+```
+5. Deploy to firebase
+```
+npm run deploy
+```
+
