@@ -1,7 +1,7 @@
 ## firExpress
 Express hosting for firebase functions
 # install
-Download this repositry and
+Download this repository and
 1. Setup Firebase
 
 ```
@@ -12,11 +12,13 @@ firebase login
 ```
 ```
 firebase init
+//(select hosting and functions)
+
 ```
-(select hosting and functions)
+
 
 2. Set firebase.json values
-```
+```json
 ...
 "hosting": {
     "public": "public",
