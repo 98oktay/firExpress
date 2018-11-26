@@ -1,16 +1,17 @@
-## FirExpress
+# FirExpress
 Express hosting for firebase functions
-# install
+## install
 Download this repository and
-1. Setup Firebase
+### 1. Setup Firebase
 
 ```
 npm install -g firebase-tools
 ```
+Login to Firebase CLI
 ```
-firebase login
+firebsae login
 ```
-2. Set your project
+### 2. Set your project
 
 ```
 firebase list (Show your project Id's)
@@ -20,16 +21,16 @@ and
 firebase use <Project-Id>
 ```
 
-3. Install NPM packages
+### 3. Install NPM packages
 
 ```
 npm install 
 ```
-4. Run for development
+### 4. Local Development
 ```
 npm run dev
 ```
-5. Deploy to firebase
+### 5. Deploy to Firebase
 ```
 npm run deploy
 ```
