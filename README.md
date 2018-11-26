@@ -10,14 +10,10 @@ npm install -g firebase-tools
 ```
 firebase login
 ```
-2. Edit ".firebaserc" file
+2. Set your project
 
 ```
-{
-  "projects": {
-    "default": "<Your-Firebase-Project-Name-Here>"
-  }
-}
+firebase use <Project-Id>
 ```
 
 3. Install NPM packages
