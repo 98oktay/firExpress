@@ -18,7 +18,6 @@ firebase list (Show your project Id's)
 and 
 ```
 firebase use <Project-Id>
-
 ```
 
 3. Install NPM packages
