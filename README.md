@@ -20,7 +20,7 @@ firebase login
 }
 ```
 
-3. Install dependencies
+3. Install NPM packages
 
 ```
 npm install 
