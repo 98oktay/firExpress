@@ -13,7 +13,12 @@ firebase login
 2. Set your project
 
 ```
+firebase list (Show your project Id's)
+```
+and 
+```
 firebase use <Project-Id>
+
 ```
 
 3. Install NPM packages
