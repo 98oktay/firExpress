@@ -12,13 +12,12 @@ Login to Firebase CLI
 firebsae login
 ```
 
-### 2. Set your Project Id
+### 2. Connect to your Project
 ```
-(Show your project Id's)
+# Show your project Id's
 firebase list 
-```
-and 
-```
+
+# and select
 firebase use <Project-Id>
 ```
 
@@ -30,6 +29,7 @@ npm install
 ### 4. Local Development
 ```
 npm run dev
+# localhost:5000
 ```
 
 ### 5. Deploy to Firebase
