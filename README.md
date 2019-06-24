@@ -9,7 +9,7 @@ npm install -g firebase-tools
 ```
 Login to Firebase CLI
 ``` bash
-firebsae login
+firebase login
 ```
 
 ### 2. Connect to your Project
